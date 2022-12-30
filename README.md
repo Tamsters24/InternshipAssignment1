@@ -18,12 +18,19 @@ Create a new program called `hello world.py`. You will use this file to write yo
 1. Open a new window by choosing New Window from the File menu.
 2. Save the file as hello world.py. Do NOT skip the ‘.py’ portion of the file name -otherwise, you will lose out on syntax highlighting!
 3. Start every program with a bank of comments, with a comment line for your name, your recitation section, the name of your file, and today’s date. Recall that a comment line begins with a ‘#’ (pound) symbol.
-<br/> You can now write your very own Hello, world! program. This is the first program that most programmers write in a new programming language. In Python, Hello world! is a very simple program to write. Do this now... it should be only be one line!
+
+You can now write your very own Hello, world! program. This is the first program that most programmers write in a new programming language. In Python, Hello world! is a very simple program to write. Do this now... it should be only be one line!
+<br/>
+
 When you are done, save your work and run it. Your code should look similar to this:
-2
+<br/>
+
 To run your program, chose Run Module from the Run menu (or just hit F5 on Windows/Linux, or fn-F5 on a Mac). When you run the code, your shell should look similar to this:
+<br/>
+
 When you run your code, it first prints the line >>> ===== RESTART =====, then runs your code underneath that line.
-Exercise 1.2 – Printing
+<br/>
+### Exercise 1.2 – Printing
 From the course website, download the homework 1.py template. Remember to put your name and section at the top. If you don’t we’ll be highly grumpy.
 Write a program using print that, when run, prints out a tic-tac-toe board. Remember to save your program regularly, to keep from losing your work! The purpose of this exercise is to make sure you understand how to write programs using your computing environment; many students in introductory courses experience trouble with assignments not because they have trouble with the material, but because of some weird environment quirk.
 3
