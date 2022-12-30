@@ -7,18 +7,18 @@ Tuesday -Chapter 4.1, 4.2, 4.4-4.7, 6.1 & 6.2.
 ## What to turn in
 Push your code onto the Homework 1 Git, at 2 PM on Wednesday, January 5th.
 ### Exercise 1.0 – Hello, world!
-Recall that a program is just a set of instructions for the computer to execute. Let’s start with a basic command:
-<br/>
+Recall that a program is just a set of instructions for the computer to execute. Let's start with a basic command:
+<br/><br/>
 `print x`
-<br/>
+<br/><br/>
 Prints the value of the expression `x`, followed by a new line.
 <br/>
 <br/>
-Create a new program called `hello world.py`. You will use this file to write your very first ‘Hello, world!’ program, as well as your answers for the rest of the exercises for today. How to create a program file:
+Create a new program called `hello world.py`. You will use this file to write your very first 'Hello, world!' program, as well as your answers for the rest of the exercises for today. How to create a program file:
 <br/>
 1. Open a new window by choosing New Window from the File menu.
-2. Save the file as hello world.py. Do NOT skip the ‘.py’ portion of the file name -otherwise, you will lose out on syntax highlighting!
-3. Start every program with a bank of comments, with a comment line for your name, your recitation section, the name of your file, and today’s date. Recall that a comment line begins with a ‘#’ (pound) symbol.
+2. Save the file as hello world.py. Do NOT skip the `.py` portion of the file name - otherwise, you will lose out on syntax highlighting!
+3. Start every program with a bank of comments, with a comment line for your name, your recitation section, the name of your file, and today’s date. Recall that a comment line begins with a `#` (pound) symbol.
 
 You can now write your very own Hello, world! program. This is the first program that most programmers write in a new programming language. In Python, Hello world! is a very simple program to write. Do this now... it should be only be one line!
 <br/>
@@ -31,8 +31,8 @@ To run your program, chose Run Module from the Run menu (or just hit F5 on Windo
 
 When you run your code, it first prints the line >>> ===== RESTART =====, then runs your code underneath that line.
 
-### Exercise 1.2 – Printing
-From the course website, download the homework 1.py template. Remember to put your name and section at the top. If you don’t we’ll be highly grumpy.
+### Exercise 1.1 – Printing
+Download the `hw1.py` homework 1.py template. Remember to put your name and section at the top. If you don’t we’ll be highly grumpy.
 Write a program using print that, when run, prints out a tic-tac-toe board. Remember to save your program regularly, to keep from losing your work! The purpose of this exercise is to make sure you understand how to write programs using your computing environment; many students in introductory courses experience trouble with assignments not because they have trouble with the material, but because of some weird environment quirk.
 
 Expected output:
@@ -42,20 +42,33 @@ Expected output:
 <br/> `--------`
 <br/> `   |  |   `
 
-### Exercise 1.3 – Variables
+### Exercise 1.2 – Variables
 Recall that variables are containers for storing information. For example,
-Program Text:
-a = ‘‘Hello, world!’’ print a
-Output:
-Hello, world!
-The = sign is an assignment operator which tells the interpreter to assign the value ‘‘Hello, world!’’ to the variable a.
-Program Text:
-a = ‘‘Hello, world!’’ a = ‘‘and goodbye...’’ print a
-Output:
-and goodbye...
-Taking this second example, the value of a after executing the first line above is ‘‘Hello, world!’’. But, after executing the second line, the value of a changes to ‘‘and goodbye...’’. Since we ask the program to print out a only after the second assignment statement, that is the value that gets printed. If you wanted to save the values of both strings, you should change the second variable to another valid variable name, such as b.
-Variables are useful because they can cut down on the amount of code you have to write. In homework 1.py, write a program that prints out the tic-tac-toe board from exercise 1.2, but which uses variables to cut down on the amount of typing you have to do. Hint -how many different variables should you need?
-Exercise 1.4 – Operators/Order of Operation
+<br/>
+*Program Text*:
+<br/>`a = "Hello, world!"`
+<br/>`print a`
+<br/><br/>
+*Output*:
+<br/>`Hello, world!`
+<br/><br/>
+The `=` sign is an assignment operator which tells the interpreter to assign the value `"Hello, world!"` to the variable `a`.
+<br/><br/>
+*Program Text*:
+<br/>`a = "Hello, world!"`
+<br/>`a = "and goodbye..."`
+<br/>`print a`
+<br/><br/>
+*Output*:
+<br/>`and goodbye...`
+<br/><br/>
+Taking this second example, the value of `a` after executing the first line above is `"Hello, world!"`. But, after executing the second line, the value of `a` changes to `"and goodbye..."`. Since we ask the program to print out a only after the second assignment statement, that is the value that gets printed. If you wanted to save the values of both strings, you should change the second variable to another valid variable name, such as `b`.
+<br/><br/>
+Variables are useful because they can cut down on the amount of code you have to write. In `hw1.py`, write a program that prints out the tic-tac-toe board from exercise 1.1, but which uses variables to cut down on the amount of typing you have to do.
+<br/>
+**Hint** - how many different variables should you need?
+<br/><br/>
+### Exercise 1.4 – Operators/Order of Operation
 Python has the ability to be used as a cheap, 5-dollar calculator. In particular, it supports basic mathematical operators +, -, *, / as well as the power operator (**) and the modulus operator (%).
 4
 � � � �
