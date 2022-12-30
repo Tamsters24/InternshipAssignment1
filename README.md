@@ -83,20 +83,22 @@ Python has the ability to be used as a cheap, 5-dollar calculator. In particular
 <br/><br/>
 Note that we can use variables in the definition of other variables! Mathematical operators only work on numbers- *ints* or *floats*. Statements such as `'Hi' + 5` or `'5' + 7` will not work.
 <br/><br/>
-**Part I:** Input the following sets of equations, and note the difference between *int* arithmetic and *float* arithmetic. You can do this just in your interpreter (you don't need to turn anything in for this part), but pay attention to the output!
+Part I: Input the following sets of equations, and note the difference between *int* arithmetic and *float* arithmetic. You can do this just in your interpreter (you don't need to turn anything in for this part), but pay attention to the output!
 1. Calculate $5 \over 2$, $5 \over 2.0$, and $5.0 \over 2$ <br/> Note that as long as one argument is a float, all of your math will be floating point!
 2. Calculate $7*(\frac{1}{2})$ and $7*(\frac{1}{2.0})$
 3. $5 ∗∗2$,$5.0 ∗∗2$, and $5 ∗∗2.0$
 4. $1 \over 3.0$ <br/> Note: the final digit is rounded. Python does this for non-terminating decimal numbers, as computers cannot store infinite numbers! Take 6.004 to find out more about this...
 <br/>
-**Part II:** In hw1.py, transcribe the following equations into Python (without simplifying!), preserving order of operation with parenthesis as needed. Save each as the value of a variable, and then print the variable.
-1.$\frac{3 \times 5}{2+3}$
-2.$\sqrt{7+9} \times 2$
-3.$(4-7)^3$
-4.$\sqrt[4]{-19+100}$
-5.6 mod 4 -If you aren’t familiar with modular arithmetic, it is pretty straightforward- the modulus operator, in the expression $x$ mod $y$, gives the remainder when $x$ is divided by $y$. Try a couple modular expressions until you get the hang of it.
+Part II: In hw1.py, transcribe the following equations into Python (without simplifying!), preserving order of operation with parenthesis as needed. Save each as the value of a variable, and then print the variable.
+
+1. $\frac{3 \times 5}{2+3}$
+2. $\sqrt{7+9} \times 2$
+3. $(4-7)^3$
+4. $\sqrt[4]{-19+100}$
+5. 6 mod 4<br/>
+If you aren’t familiar with modular arithmetic, it is pretty straightforward- the expression<br/> $x$ mod $y$, gives the remainder when $x$ is divided by $y$. Try a couple modular expressions until you get the hang of it.
 <br/>
-**Part III**: In homework 1.py, use order of operation mathematics to create two equations that look the same (ie, have the same numbers) but evaluate to different values (due to parenthesization). Save each as the value of a variable, then print the variables.
+Part III: In homework 1.py, use order of operation mathematics to create two equations that look the same (ie, have the same numbers) but evaluate to different values (due to parenthesization). Save each as the value of a variable, then print the variables.
 Exercise 1.5 – User input
 Do this exercise in homework 1.py. In this exercise, we will ask the user for his/her first and last name, and date of birth, and print them out formatted. Recall that you can get input from the user using the command raw input(‘‘text’’), as shown in lecture.
 5
