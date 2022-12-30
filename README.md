@@ -1,4 +1,5 @@
 # Homework 1
+##### Borrowed from https://ocw.mit.edu/courses/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011/pages/assignments/
 ## Readings
 How To Think Like A Computer Scientist: Monday -chapters 1 (all), 2 (all) & 4.12.
 <br/>
@@ -29,18 +30,19 @@ To run your program, chose Run Module from the Run menu (or just hit F5 on Windo
 <br/>
 
 When you run your code, it first prints the line >>> ===== RESTART =====, then runs your code underneath that line.
-<br/>
+
 ### Exercise 1.2 – Printing
 From the course website, download the homework 1.py template. Remember to put your name and section at the top. If you don’t we’ll be highly grumpy.
 Write a program using print that, when run, prints out a tic-tac-toe board. Remember to save your program regularly, to keep from losing your work! The purpose of this exercise is to make sure you understand how to write programs using your computing environment; many students in introductory courses experience trouble with assignments not because they have trouble with the material, but because of some weird environment quirk.
-3
---------
---------
+
 Expected output:
-||
-||
-||
-Exercise 1.3 – Variables
+<br/> `   |  |   `
+<br/> `--------`
+<br/> `   |  |   `
+<br/> `--------`
+<br/> `   |  |   `
+
+### Exercise 1.3 – Variables
 Recall that variables are containers for storing information. For example,
 Program Text:
 a = ‘‘Hello, world!’’ print a
