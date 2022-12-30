@@ -65,46 +65,38 @@ The `=` sign is an assignment operator which tells the interpreter to assign the
 Taking this second example, the value of `a` after executing the first line above is `"Hello, world!"`. But, after executing the second line, the value of `a` changes to `"and goodbye..."`. Since we ask the program to print out a only after the second assignment statement, that is the value that gets printed. If you wanted to save the values of both strings, you should change the second variable to another valid variable name, such as `b`.
 <br/><br/>
 Variables are useful because they can cut down on the amount of code you have to write. In `hw1.py`, write a program that prints out the tic-tac-toe board from exercise 1.1, but which uses variables to cut down on the amount of typing you have to do.
-<br/>
+<br/><br/>
 **Hint** - how many different variables should you need?
 <br/><br/>
-### Exercise 1.4 – Operators/Order of Operation
-Python has the ability to be used as a cheap, 5-dollar calculator. In particular, it supports basic mathematical operators +, -, *, / as well as the power operator (**) and the modulus operator (%).
-4
-� � � �
-Program Text:
-x=5+7 print x y = x + 10 print y
-Output:
-12 22
-Note that we can use variables in the definition of other variables! Mathematical operators only work on numbersints or floats. Statements such as ’Hi’ + 5 or ’5’ + 7 will not work.
-Part I: Input the following sets of equations, and note the difference between int arithmetic and float arithmetic. You can do this just in your interpreter (you don’t need to turn anything in for this part), but pay attention to the output!
-55 5.0
-1. ,, and Note that as long as one argument is a float, all of your math will be floating point!
-2 2.02
-11
-2. 7 ∗ and 7 ∗
-22.0
-3.
-5 ∗∗2, 5.0 ∗∗2, and 5 ∗∗2.0
-1
-4.
-Note the final digit is rounded. Python does this for non-terminating decimal numbers, as computers
-3.0
-cannot store infinite numbers! Take 6.004 to find out more about this...
-Part II: In homework 1.py, transcribe the following equations into Python (without simplifying!), preserving order of operation with parenthesis as needed. Save each as the value of a variable, and then print the variable.
-3 × 5
-1.
-2+3
-2.
-√7+9 × 2
-3.
-(4 − 7)3
-4
-4.
-√−19 + 100
-5.
-6 mod 4 -If you aren’t familiar with modular arithmetic, it is pretty straightforward-the modulus operator, in the expression x mod y, gives the remainder when x is divided by y. Try a couple modular expressions until you get the hang of it.
-Part III: In homework 1.py, use order of operation mathematics to create two equations that look the same (ie, have the same numbers) but evaluate to different values (due to parenthesization). Save each as the value of a variable, then print the variables.
+### Exercise 1.3 – Operators/Order of Operation
+Python has the ability to be used as a cheap, 5-dollar calculator. In particular, it supports basic mathematical operators `+`,`-`,`*`,`/` as well as the power operator (`**`) and the modulus operator (`%`).
+<br/><br/>
+*Program Text*:
+<br/>`x = 5 + 7`
+<br/>`print x`
+<br/>`y = x + 10`
+<br/>`print y`
+<br/><br/>
+*Output*:
+<br/>`12`
+<br/>`22`
+<br/><br/>
+Note that we can use variables in the definition of other variables! Mathematical operators only work on numbers- *ints* or *floats*. Statements such as `'Hi' + 5` or `'5' + 7` will not work.
+<br/><br/>
+**Part I:** Input the following sets of equations, and note the difference between *int* arithmetic and *float* arithmetic. You can do this just in your interpreter (you don't need to turn anything in for this part), but pay attention to the output!
+1. Calculate $5 \over 2$, $5 \over 2.0$, and $5.0 \over 2$ <br/> Note that as long as one argument is a float, all of your math will be floating point!
+2. Calculate $7*(\frac{1}{2})$ and $7*(\frac{1}{2.0})$
+3. $5 ∗∗2$,$5.0 ∗∗2$, and $5 ∗∗2.0$
+4. $1 \over 3.0$ <br/> Note: the final digit is rounded. Python does this for non-terminating decimal numbers, as computers cannot store infinite numbers! Take 6.004 to find out more about this...
+<br/>
+**Part II:** In hw1.py, transcribe the following equations into Python (without simplifying!), preserving order of operation with parenthesis as needed. Save each as the value of a variable, and then print the variable.
+1.$\frac{3 \times 5}{2+3}$
+2.$\sqrt{7+9} \times 2$
+3.$(4-7)^3$
+4.$\sqrt[4]{-19+100}$
+5.6 mod 4 -If you aren’t familiar with modular arithmetic, it is pretty straightforward- the modulus operator, in the expression $x$ mod $y$, gives the remainder when $x$ is divided by $y$. Try a couple modular expressions until you get the hang of it.
+<br/>
+**Part III**: In homework 1.py, use order of operation mathematics to create two equations that look the same (ie, have the same numbers) but evaluate to different values (due to parenthesization). Save each as the value of a variable, then print the variables.
 Exercise 1.5 – User input
 Do this exercise in homework 1.py. In this exercise, we will ask the user for his/her first and last name, and date of birth, and print them out formatted. Recall that you can get input from the user using the command raw input(‘‘text’’), as shown in lecture.
 5
